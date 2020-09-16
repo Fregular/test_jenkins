@@ -1,2 +1,3 @@
-# test_jenkins
-only test
+# Platzi Scripts
+
+Dummy tests are in `jenkins-tests`
