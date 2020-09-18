@@ -4,5 +4,5 @@
   gather_facts: no
   tasks:
     - name: run docker
-      command: docker run fregular01/webapp:18
+      shell: docker run -d --rm fregular01/webapp:19
 
