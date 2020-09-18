@@ -36,6 +36,11 @@ pipeline {
         }
       }
     }
+    stage('deploy'){
+      steps {
+        build job: 'deploy-webapp-staging'
+    }
   }
+}
 }
 
