@@ -1,0 +1,6 @@
+[group1]
+192.168.122.141
+
+[all:vars]
+ansible_ssh_user=fregular
+

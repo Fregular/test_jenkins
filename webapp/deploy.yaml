@@ -1,0 +1,9 @@
+---
+- name: building proyecto
+  hosts: group1
+  gather_facts: no
+  tasks:
+    - name: run docker
+      command:
+        cmd: docker run fregular01/webapp:latest 
+
