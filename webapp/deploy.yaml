@@ -5,5 +5,5 @@
   tasks:
     - name: run docker
       command:
-        cmd: docker run fregular01/webapp 
+        cmd: docker run fregular01/webapp:14 
 
